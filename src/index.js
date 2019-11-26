@@ -1,2 +1,6 @@
-const teste = (x, y) => x * y;
-alert(teste(2, 10));
+import React from 'react';
+import { render } from 'react-dom';
+
+import App from './App'
+
+render(<App />, document.getElementById('root'));
