@@ -1,9 +1,8 @@
 import React from 'react';
+import GoStackBook from './components/GoStackBook';
 
 import './App.css';
 
 export default () => (
-  <>
-    <h1>Olá, agora de um componente.</h1>
-  </>
+  <GoStackBook />
 );
