@@ -1,3 +1,22 @@
+:root {
+  --main-primary-color: #4A8FE2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
 body {
-  background: red;
+  font-family: sans-serif;
+  line-height: 1.6;
+  font-size: 19px;
+  color: #444;
+  background: #F2F2F2;
+}
+
+a {
+  text-decoration: none;
 }

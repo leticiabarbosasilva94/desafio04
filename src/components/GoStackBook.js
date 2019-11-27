@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import Header from './header/Header';
 
 export default class GoStackBook extends Component {
   state = { test: 'Hey' };
 
   render() {
-    const { test } = this.state;
-    return <h1>{ test }</h1>;
+    return (
+      <>
+        <Header />
+      </>
+    );
   }
 }
