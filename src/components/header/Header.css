@@ -1,3 +1,10 @@
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 .menu {
   background: var(--main-primary-color);
   height: 64px;

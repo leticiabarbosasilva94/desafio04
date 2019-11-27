@@ -1,14 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Header from './header/Header';
+import PostList from './postlist/PostList';
 
-export default class GoStackBook extends Component {
-  state = { test: 'Hey' };
-
-  render() {
-    return (
-      <>
-        <Header />
-      </>
-    );
-  }
-}
+export default () => (
+  <>
+    <Header />
+    <PostList />
+  </>
+);
